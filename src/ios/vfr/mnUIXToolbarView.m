@@ -67,7 +67,7 @@
 
 			CGRect shadowRect = self.bounds; shadowRect.origin.y += shadowRect.size.height; shadowRect.size.height = SHADOW_HEIGHT;
 
-			UIXToolbarShadow *shadowView = [[UIXToolbarShadow alloc] initWithFrame:shadowRect];
+			mnUIXToolbarShadow *shadowView = [[mnUIXToolbarShadow alloc] initWithFrame:shadowRect];
 
 			[self addSubview:shadowView]; // Add shadow to toolbar
 		}
@@ -95,19 +95,19 @@
 #pragma mark -
 
 //
-//	UIXToolbarShadow class implementation
+//	mnUIXToolbarShadow class implementation
 //
 
-@implementation UIXToolbarShadow
+@implementation mnUIXToolbarShadow
 
-#pragma mark - UIXToolbarShadow class methods
+#pragma mark - mnUIXToolbarShadow class methods
 
 + (Class)layerClass
 {
 	return [CAGradientLayer class];
 }
 
-#pragma mark - UIXToolbarShadow instance methods
+#pragma mark - mnUIXToolbarShadow instance methods
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

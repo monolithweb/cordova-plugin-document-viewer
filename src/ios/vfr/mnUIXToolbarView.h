@@ -32,9 +32,9 @@
 #pragma mark -
 
 //
-//	UIXToolbarShadow class interface
+//	mnUIXToolbarShadow class interface
 //
 
-@interface UIXToolbarShadow : UIView
+@interface mnUIXToolbarShadow : UIView
 
 @end
