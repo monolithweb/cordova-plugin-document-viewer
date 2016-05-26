@@ -139,8 +139,8 @@ not sure if this is correct, it creates a second application tag in the manifest
         <source-file src="src/ios/vfr/ThumbsViewController.m"/>
         <header-file src="src/ios/vfr/ThumbsViewController+SDVThumbsViewControllerPassThrough.h"/>
         <source-file src="src/ios/vfr/ThumbsViewController+SDVThumbsViewControllerPassThrough.m"/>
-        <header-file src="src/ios/vfr/UIXToolbarView.h"/>
-        <source-file src="src/ios/vfr/UIXToolbarView.m"/>
+        <header-file src="src/ios/vfr/mnUIXToolbarView.h"/>
+        <source-file src="src/ios/vfr/mnUIXToolbarView.m"/>
 
 
         <resource-file src="src/ios/Graphics/AppIcon-057.png"/>
