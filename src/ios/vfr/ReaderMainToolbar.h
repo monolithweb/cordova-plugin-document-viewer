@@ -25,7 +25,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "UIXToolbarView.h"
+#import "mnUIXToolbarView.h"
 
 @class ReaderMainToolbar;
 @class ReaderDocument;
@@ -45,7 +45,7 @@
 
 @end
 
-@interface ReaderMainToolbar : UIXToolbarView
+@interface ReaderMainToolbar : mnUIXToolbarView
 {
     UIButton *markButton;
     

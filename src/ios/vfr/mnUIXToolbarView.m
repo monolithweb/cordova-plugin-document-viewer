@@ -1,5 +1,5 @@
 //
-//	UIXToolbarView.m
+//	mnUIXToolbarView.m
 //	Reader v2.8.2
 //
 //	Created by Julius Oklamcak on 2011-09-01.
@@ -24,17 +24,17 @@
 //
 
 #import "ReaderConstants.h"
-#import "UIXToolbarView.h"
+#import "mnUIXToolbarView.h"
 
 #import <QuartzCore/QuartzCore.h>
 
-@implementation UIXToolbarView
+@implementation mnUIXToolbarView
 
 #pragma mark - Constants
 
 #define SHADOW_HEIGHT 4.0f
 
-#pragma mark - UIXToolbarView class methods
+#pragma mark - mnUIXToolbarView class methods
 
 + (Class)layerClass
 {
@@ -45,7 +45,7 @@
 #endif // end of READER_FLAT_UI Option
 }
 
-#pragma mark - UIXToolbarView instance methods
+#pragma mark - mnUIXToolbarView instance methods
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

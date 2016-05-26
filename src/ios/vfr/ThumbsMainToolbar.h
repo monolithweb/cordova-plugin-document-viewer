@@ -25,7 +25,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "UIXToolbarView.h"
+#import "mnUIXToolbarView.h"
 
 @class ThumbsMainToolbar;
 
@@ -38,7 +38,7 @@
 
 @end
 
-@interface ThumbsMainToolbar : UIXToolbarView
+@interface ThumbsMainToolbar : mnUIXToolbarView
 
 @property (nonatomic, weak, readwrite) id <ThumbsMainToolbarDelegate> delegate;
 

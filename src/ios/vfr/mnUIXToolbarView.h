@@ -1,5 +1,5 @@
 //
-//	UIXToolbarView.h
+//	mnUIXToolbarView.h
 //	Reader v2.8.0
 //
 //	Created by Julius Oklamcak on 2011-09-01.
@@ -25,7 +25,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIXToolbarView : UIView
+@interface mnUIXToolbarView : UIView
 
 @end
 
